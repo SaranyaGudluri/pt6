@@ -1,0 +1,120 @@
+td{
+    padding: 50px;
+  }
+  a:hover{
+    color: red;
+  }
+  img{
+    float: right;
+      width:300px;
+      height: 300px;
+      border-radius: 20%; /* Makes the image round */
+    transition: transform 0.3s;
+  }
+  img:hover {
+      transform: scale(1.1); /* Scale the image on hover */
+    }
+  
+    .App{
+      text-align: center;
+    }
+  .hero{
+    height: 30px;
+    background-color: #063038;
+  }
+  .home{
+    height: 500px;
+    background-color: #10bad8;
+  }
+  .about{
+    height: 200px;
+    background-color: #10bad8;
+  }
+  .skills{
+    height: 400px;
+    background-color: #10bad8;
+  }
+  .projects{
+    height: 300px;
+    background-color: #10bad8;
+  }
+  .contact{
+    height: 300px;
+    background-color: #10bad8;
+  }
+    .link{
+      color: blue;
+      text-decoration: none;
+      display: inline;
+      padding: 20px 20px;
+      font-weight: 700;
+      font-size: large;
+      cursor: pointer;
+      transition: transform 0.3s;
+    }
+  
+    .link:hover{
+      color:black;
+    }
+  
+    h4
+    {
+      background-image: linear-gradient(
+        -225deg,
+        #231557 0%,
+        #44107a 29%,
+        #1748c4 67%,
+        #a6dbef 100%
+      );
+      background-size: auto auto;
+      background-clip: border-box;
+      background-size: 200% auto;
+      color: #fff;
+      background-clip: text;
+      text-fill-color: transparent;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      animation: textclip 2s linear infinite;
+     
+    }
+    
+    @keyframes textclip {
+      to {
+        background-position: 200% center;
+      }
+    }
+  
+  
+   
+    .fromtop {
+      animation: 2s anim-fromtop linear infinite;
+    }
+    @keyframes anim-fromtop {
+      0% { opacity: 0; transform: translateY(-100%);}
+      25% { opacity: 1; transform: translateY(0%);}
+      50% {
+      }
+      100% {
+      }
+    }
+  
+    .i1 {
+      animation: 2s anim-lineUp ease-out infinite;
+    }
+    @keyframes anim-lineUp {
+      0% {
+        opacity: 0;
+        transform: translateY(80%);
+      }
+      20% {
+        opacity: 0;
+      }
+      50% {
+        opacity: 1;
+        transform: translateY(0%);
+      }
+      100% {
+        opacity: 1;
+        transform: translateY(0%);
+      }
+    }
